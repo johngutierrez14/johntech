@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>John Tech &mdash; Portafolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="description" content="">
+  <meta name="keywords" content="html, css, javascript, jquery">
+  <meta name="author" content="">
+
+  <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+  <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/vendor/animate.min.css">
+  <link rel="stylesheet" href="css/vendor/aos.css">
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+
+
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+
+  <nav class="unslate_co--site-mobile-menu">
+    <div class="close-wrap d-flex">
+      <a href="#" class="d-flex ml-auto js-menu-toggle">
+        <span class="close-label">Cerrar</span>
+        <div class="close-times">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
+        </div>
+      </a>
+    </div>
+    <div class="site-mobile-inner"></div>
+  </nav>
+
+
+  <div class="unslate_co--site-wrap">
+
+    <div class="unslate_co--site-inner">
+
+      <div class="lines-wrap">
+        <div class="lines-inner">
+          <div class="lines"></div>
+        </div>
+      </div>
+      <!-- END lines -->
+
+      <nav class="unslate_co--site-nav site-nav-target">
+
+        <div class="container">
+
+          <div class="row align-items-center justify-content-between text-left">
+            <div class="col-md-5 text-right">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="#home-section" class="nav-link">Inicio</a></li>
+                <li><a href="#portfolio-section" class="nav-link">Portafolio</a></li>
+                <li><a href="#about-section" class="nav-link">Conóceme</a></li>
+                <li><a href="#services-section" class="nav-link">Servicios</a></li>
+              </ul>
+            </div>
+            <div class="site-logo pos-absolute">
+              <a href="index.html" class="unslate_co--site-logo">JohnTech<span>.</span></a>
+            </div>
+            <div class="col-md-5 text-right text-lg-left">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="#skills-section" class="nav-link">Habilidades</a></li>
+                <li><a href="#testimonial-section" class="nav-link">Testimonios</a></li>
+                <li><a href="#journal-section" class="nav-link">Mi Blog</a></li>
+                <li><a href="#contact-section" class="nav-link">Contáctame</a></li>
+              </ul>
+
+              <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
+                <li><a href="#" class="js-menu-toggle">Menú</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+      </nav>
+      <!-- END nav -->
+
+      <div class="cover-v1 jarallax" style="background-image: url('images/cover_bg_2.jpg');" id="home-section">
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-md-7 mx-auto text-center">
+              <h1 class="heading gsap-reveal-hero">John Tech</h1>
+              <h2 class="subheading gsap-reveal-hero">Transformando Datos en Decisiones, y Código en Experiencias.
+              </h2>
+            </div>
+
+          </div>
+        </div>
+
+
+        <a href="#portfolio-section" class="mouse-wrap smoothscroll">
+          <span class="mouse">
+            <span class="scroll"></span>
+          </span>
+          <span class="mouse-label">Scroll</span>
+        </a>
+
+      </div>
+      <!-- END .cover-v1 -->
+
+
+      <div class="unslate_co--section" id="portfolio-section">
+        <div class="container">
+
+
+          <div class="relative">
+            <div class="loader-portfolio-wrap">
+              <div class="loader-portfolio"></div>
+            </div>
+          </div>
+          <div id="portfolio-single-holder"></div>
+
+          <div class="portfolio-wrapper">
+
+            <div class="d-flex align-items-center mb-4 gsap-reveal gsap-reveal-filter">
+              <h2 class="mr-auto heading-h2"><span class="gsap-reveal">Portfolio</span></h2>
+              <a href="#" class="text-white js-filter d-inline-block d-lg-none">Filtrar</a>
+              <div class="filter-wrap">
+                <div class="filter ml-auto" id="filters">
+                  <a href="#" class="active" data-filter="*">Todos</a>
+                  <a href="#" data-filter=".web">Sitios web</a>
+                  <a href="#" data-filter=".branding">Branding</a>
+                  <a href="#" data-filter=".illustration">Illustration</a>
+                  <a href="#" data-filter=".packaging">Packaging</a>
+                </div>
+              </div>
+            </div>
+
+            <div id="posts" class="row gutter-isotope-item">
+              <!-- Aquí se generan dinámicamente los elementos del portafolio -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- <div class="unslate_co--section">
+        <div class="container">
+          <div class="owl-carousel logo-slider">
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/logo-google.png" alt="Image" class="img-fluid">
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/logo-puma.png" alt="Image" class="img-fluid">
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/logo-paypal.png" alt="Image" class="img-fluid">
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/logo-adobe.png" alt="Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+      <div class="unslate_co--section" id="about-section">
+        <div class="container">
+
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Acerca de mí</span></h2>
+            <span class="gsap-reveal">
+              <img src="images/divider.png" alt="divider" width="76">
+            </span>
+          </div>
+
+
+          <div class="row mt-5 justify-content-between">
+            <div class="col-lg-7 mb-5 mb-lg-0">
+              <figure class="dotted-bg gsap-reveal-img ">
+                <img src="images/about_me_pic2.jpg" alt="Image" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-lg-4 pr-lg-5">
+              <h3 class="mb-4 heading-h3"><span class="gsap-reveal">¡Hola!, soy John Estebabn Gutierrez Gutierrez</span></h3>
+              <p class="lead gsap-reveal">un ingeniero industrial apasionado por la tecnología y la
+                programación. Mi formación en ingeniería industrial me ha brindado
+                una perspectiva única para abordar desafíos complejos y encontrar
+                soluciones innovadoras. Como desarrollador web fullstack, he
+                creado aplicaciones y sitios web funcionales y atractivos. Además,
+                mi experiencia como analista de datos me permite extraer
+                conocimientos valiosos para la toma de decisiones informadas.
+                ¡Bienvenido a mi portafolio!.</p>
+              <p class="gsap-reveal"><a href="#" class="btn btn-outline-pill btn-custom-light">Descarga mi currículum</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="unslate_co--section" id="services-section">
+        <div class="container">
+
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Mis servicios</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+          <div class="row gutter-v3">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/001-options.svg" alt="Image" width="45">
+                </div>
+                <h3>Desarrollo <br> Web</h3>
+                <p>Creación de sitios atractivos y funcionales, implementación de tiendas online seguras y visualmente atractivas en la plataforma WordPress. </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/002-chat.svg" alt="Icon" width="45">
+                </div>
+                <h3>Desarrollo <br> Mobile</h3>
+                <p>Desarrollo de aplicaciones móviles nativas y multiplataforma para una experiencia fluida en Flutter, React Native, AppSheet </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/003-contact-book.svg" alt="Image" class="img-fluid" width="45">
+                </div>
+                <h3>Desarrollo de <br> Dashboards</h3>
+                <p>Creación de metricas y KPI's, dashboards interactivos en Excel y Power BI para visualización de datos.</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/004-percentage.svg" alt="Image" width="45">
+                </div>
+                <h3>Diseño <br> Gráfico</h3>
+                <p>Desarrollo de elementos visuales que reflejan la identidad y valores de la marca, creación de materiales publicitarios atractivos y efectivos. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="unslate_co--section section-counter" id="skills-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Mis Habilidades</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+
+          <div class="row pt-5">
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="78">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">Dominio de Tecnologías Frontend y Backend</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="80">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">Integración de Datos y Análisis</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="95">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">Diseño y Desarrollo de Bases de Datos</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="80">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">Desarrollo de Dashboards y Visualización</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END .counter -->
+
+      <!-- <div class="unslate_co--section" id="testimonial-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Happy Clients</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+        </div> -->
+
+        <!-- <div class="owl-carousel testimonial-slider" data-aos="fade-up" id="testimonial-container"> -->
+          <!-- Testimonials will be added here dynamically using JavaScript -->
+        <!-- </div>
+      </div> -->
+      <!-- END testimonial -->
+
+      <div class="unslate_co--section" id="journal-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Mi Blog</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+          <div class="row gutter-v4 align-items-stretch" id="blog-container">
+          </div>
+        </div>
+      </div>
+      <!-- END blog posts -->
+
+
+      <div class="unslate_co--section" id="contact-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Ponte en contacto con nosotros</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+
+          <div class="row justify-content-between">
+
+            <div class="col-md-6">
+              <form method="post" class="form-outline-style-v1" id="contactForm">
+                <div class="form-group row mb-0">
+
+                  <div class="col-lg-6 form-group gsap-reveal">
+                    <label for="name">Nombres</label>
+                    <input name="name" type="text" class="form-control" id="name">
+                  </div>
+                  <div class="col-lg-6 form-group gsap-reveal">
+                    <label for="email">Email</label>
+                    <input name="email" type="email" class="form-control" id="email">
+                  </div>
+                  <div class="col-lg-12 form-group gsap-reveal">
+                    <label for="message">Escribe tu mensaje...</label>
+                    <textarea name="message" id="message" cols="30" rows="7" class="form-control"></textarea>
+                  </div>
+                </div>
+                <div class="form-group row gsap-reveal">
+                  <div class="col-md-12 d-flex align-items-center">
+                    <input type="submit" class="btn btn-outline-pill btn-custom-light mr-3" value="Enviar mensaje">
+                    <span class="submitting"></span>
+                  </div>
+                </div>
+              </form>
+              <div id="form-message-warning" class="mt-4"></div>
+              <div id="form-message-success">
+                Tu mensaje fue enviado, ¡gracias!
+              </div>
+
+            </div>
+
+            <div class="col-md-4">
+              <div class="contact-info-v1">
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Email</span>
+                  <a href="#" class="contact-info-val">johnegutierrez14@gmail.com</a>
+                </div>
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Celular</span>
+                  <a href="#" class="contact-info-val">+57 318 299 1343</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div> <!-- END .unslate_co-site-inner -->
+
+    <footer class="unslate_co--footer unslate_co--section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+
+            <div class="footer-site-logo"><a href="#">JohnTech<span>.</span></a></div>
+
+            <ul class="footer-site-social">
+              <li><a href="https://www.facebook.com/johngutierrez1014">Facebook</a></li>
+              <li><a href="https://www.linkedin.com/in/johnegutierrez14/">LinkedIn</a></li>
+              <li><a href="https://www.instagram.com/johnegutierrez14/">Instagram</a></li>
+            </ul>
+
+            <p class="site-copyright">
+
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              <!-- Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i>
+              by <a href="https://colorlib.com" target="_blank">Colorlib and Edited by JohnTech</a> -->
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </div>
+
+
+  <!-- Loader -->
+  <div id="unslate_co--overlayer"></div>
+  <div class="site-loader-wrap">
+    <div class="site-loader"></div>
+  </div>
+
+  <script src="js/scripts-dist.js"></script>
+  <script src="js/portfolioElements.js"></script>
+  <script src="js/testimonials.js"></script>
+  <script src="js/blogsPosts.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
