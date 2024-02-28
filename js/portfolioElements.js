@@ -1,8 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Datos para los elementos del portafolio
     const portfolioItems = [
-        { category: "web branding", title: "Shoe Rebranding", imageSrc: "images/work_1_md.jpg", link: "portfolio-single-1.html" },
-        { category: "branding packaging illustration", title: "Reworking", imageSrc: "images/work_2_md.jpg", link: "portfolio-single-2.html" },
+        { category: "web branding", title: "LOGIP SAS", imageSrc: "images/work_1_full.jpg", link: "portfolio-single-1.html" },
+        { category: "web branding", title: "LOGIP SAS", imageSrc: "images/work_2_full.jpg", link: "portfolio-single-1.html" },
+        { category: "web branding", title: "LOGIP SAS", imageSrc: "images/work_3_full.jpg", link: "portfolio-single-1.html" },
+        { category: "web branding", title: "LOGIP SAS", imageSrc: "images/work_4_full.jpg", link: "portfolio-single-1.html" },
+        { category: "web branding", title: "LOGIP SAS", imageSrc: "images/work_5_full.jpg", link: "portfolio-single-1.html" },
+        { category: "dashboard", title: "Reporte RRHH", imageSrc: "images/work_6_full.jpg", link: "portfolio-single-2.html" },
+        { category: "dashboard", title: "Reporte Producción", imageSrc: "images/work_7_full.jpg", link: "portfolio-single-2.html" },
+        { category: "dashboard", title: "Reporte Producción", imageSrc: "images/work_8_full.jpg", link: "portfolio-single-2.html" },
+        { category: "dashboard", title: "Reporte Producción", imageSrc: "images/work_9_full.jpg", link: "portfolio-single-2.html" },
+        { category: "dashboard", title: "Reporte Finanzas", imageSrc: "images/work_10_full.jpg", link: "portfolio-single-2.html" },
+        { category: "dashboard", title: "Reporte Transporte", imageSrc: "images/work_11_full.jpg", link: "portfolio-single-2.html" },
         // Agrega más elementos según sea necesario
     ];
 
